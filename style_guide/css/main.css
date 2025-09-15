@@ -1,2 +1,164 @@
 /* CSS Document */
 
+
+
+body {
+	background-color:#151D27;
+	font-family: "avenir-next-lt-pro", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.personal-brand {
+	color:#C1C6D9;
+	font-family: "avenir-next-lt-pro", sans-serif;
+  	font-optical-sizing: auto;
+	font-size: 72px;
+  	font-weight: 200;
+  	font-style: normal;
+}
+
+.main-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 350px;
+}
+
+.logo-variations {
+  display: flex;
+  justify-content: center;
+}
+
+.logotype {
+  background-color: #C1C6D9;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 48px;
+}
+
+.brandmark {
+	background-color: #C1C6D9;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 160px;
+}
+
+.submark {
+	background-color: #151D27;
+    width: 350px;
+    margin: 10px;
+	text-align: center;
+	margin-top: 10px;
+    line-height: 200px;
+    font-size: 160px;
+}
+
+.swatches {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #C1C6D9;
+}
+
+.swatch1 {
+  background-color: #151D27;
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  color: #C1C6D9;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.swatch2 {
+  background-color: #C1C6D9;
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  color: #151D27;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.swatch3 {
+  background-color: #9BB4DA;
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  color: #151D27;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.swatch4 {
+  background-color: #EB0066;
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  color: #151D27;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fonts {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  color: #9BB4DA;
+  line-height: 90px;
+  font-size: 43px;
+}
+
+.bold {
+	font-weight: 500;
+	margin: 30px;
+	margin-right: 50px;
+}
+
+.light {
+	margin: 30px;
+	margin-left: 50px;
+}
+
+.grid {
+	max-width: 100%;
+	margin-bottom: 0.5rem;
+	display: block;
+}
+
+.masonry__container {
+	column-count: 3;
+	column-gap: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+	.masonry__container {
+		column-count: 3;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.masonry__container {
+		column-count: 2;
+	}
+}
