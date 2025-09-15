@@ -1,0 +1,8 @@
+title: My Portfolio
+name: Maja Veronika Kostrzewska
+email: maja26266@gmail.com
+
+collections:
+  design:
+    output: true
+    permalink: /collection/:path/
